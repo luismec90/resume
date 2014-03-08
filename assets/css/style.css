@@ -181,7 +181,7 @@ textarea.form-control:focus {
 .exp,
 .extra,
 .contact {
-	min-height: 100%;
+	height: auto;
 	padding: 90px 0;
 	border-bottom: 1px dotted #eee;
 }
@@ -274,7 +274,7 @@ li.dummy.active { /* scrollspy fix */
 .hero-content {
 	display: block;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	right: 5%;
 	width: 500px;
 	text-align: center;
@@ -311,12 +311,12 @@ li.dummy.active { /* scrollspy fix */
 
 /* [PRS] PROFILE SECTION */
 .profile {
-	height: 100%;
+	height: auto;
 }
 
 .profile > .container {
 	position: relative;
-	min-height: 100%;
+	height: auto;
 }
 
 .profile-content {
@@ -324,12 +324,7 @@ li.dummy.active { /* scrollspy fix */
 }
 
 .profile-figure {
-	display: block;
-	width: 40%;
-	position: absolute;
-	right: 0;
-	bottom: -90px;
-	z-index: -1;
+	
 }
 
 /* [QFS] QUALIFICATION SECTION */
@@ -530,7 +525,7 @@ li.dummy.active { /* scrollspy fix */
 }
 
 .tl-company {
-	margin: 0 0 10px;
+	margin: 10px 0;
 	font-size: 16px;
 }
 
@@ -849,7 +844,6 @@ li.dummy.active { /* scrollspy fix */
 	border-bottom-color: #eee;
 	color: #555;
 }
-
 .nav-tabs > li.active> a, 
 .nav-tabs > li.active > a:hover, 
 .nav-tabs > li.active > a:focus {
@@ -1374,4 +1368,8 @@ li.dummy.active { /* scrollspy fix */
 		margin-left: 5%;
 		left: auto;
 	}
+}
+#map-canvas {
+height: 400px;
+width: auto;
 }
