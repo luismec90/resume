@@ -48,7 +48,7 @@
                     <div id="main-nav" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right nav-style">
                             <li class="dummy"><a href="#hero"></a></li><!-- dummy li for scrollspy fix -->
-                            <li><a href="#profile">Pefil</a></li>
+                            <li><a href="#profile">Perfil</a></li>
                             <li><a href="#qualification">Educación</a></li>
                             <li class=""><a href="#skill">Habilidades</a></li>
                             <li class=""><a href="#exp">Trabajos destacados</a></li>
