@@ -57,21 +57,19 @@ function heroContent() {
 }
 ;
 
-/* CLOSE NAVBAR TOGGLE WHEN NAVBAR LINK CLICKED */
-function navbarToggle() {
-    if ($(window).width() <= 767) {
-        $('.nav-style > li > a').on('click', function() {
-            $('.navbar-toggle').click();
-        });
+    /* CLOSE NAVBAR TOGGLE WHEN NAVBAR LINK CLICKED */
+    function navbarToggle() {
+        if ($(window).width() <= 767) {
+            $('.nav-style > li > a').on('click', function() {
+                $('.navbar-toggle').click();
+            });
+        }
     }
-}
-;
+    ;
 
 /* REFRESH SCROLLSPY */
 function scrollSpyRefresh() {
-    $('[data-spy="scroll"]').each(function() {
-        $(this).scrollspy('refresh')
-    });
+   
 }
 ;
 
@@ -81,8 +79,6 @@ $(document).ready(function() {
     heroContent();
     navbarToggle();
 
-    /* INIT GALLERY FEATURE WITH JQUERY MIXITUP PLUGIN */
-    $('#grid').mixitup();
 
 
     /* INIT PAGE SCROLLING USING JQUERY SCROLLTO-LOCALSCROLL PLUGIN */
@@ -94,7 +90,7 @@ $(document).ready(function() {
     var dialColor = $('a').css('color'); // get color from link color
 
     $(".dial").knob({
-        'fgColor': dialColor,
+        'fgColor': '#39b3d7',
         'lineCap': 'round',
         'thickness': '.2',
         'bgColor': '#fafafa',
@@ -193,8 +189,8 @@ $(document).ready(function() {
             $('#contact-sending').fadeIn(250);
 
             $.ajax({
-                type: contactForm.attr('method'),
-                url: contactForm.attr('action') + '?ajax=true',
+                type:"POST",
+                url: "mail",
                 data: contactForm.serialize(),
                 success: function(response) {
                     response = $.trim(response);

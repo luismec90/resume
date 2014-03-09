@@ -1,0 +1,39 @@
+        <table border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Registrado por</th>
+                    <th>Descripción</th>
+                    <th>Forma de pago</th>
+                    <th>Valor</th>
+                    <th>Cliente</th>
+                </tr>
+            </thead>
+            <tbody>
+                                    <tr>
+                        <td> 2014-01-31 06:50:29 </td>
+                        <td> Demo1 </td>
+                        <td>  </td>
+                        <td> Efectivo </td>
+                        <td> 12.00 </td>
+                        <td> Luis Fernando Ramirez  </td>
+                    </tr>
+                                    <tr>
+                        <td> 2014-01-30 17:45:34 </td>
+                        <td> Demo1 </td>
+                        <td>  </td>
+                        <td> Efectivo </td>
+                        <td> 40000.00 </td>
+                        <td> Ocasional   </td>
+                    </tr>
+                                    <tr>
+                        <td> 2014-01-23 09:23:41 </td>
+                        <td> Demo1 </td>
+                        <td>  </td>
+                        <td> Efectivo </td>
+                        <td> 7.00 </td>
+                        <td> Luis Ramirez  </td>
+                    </tr>
+                            </tbody>
+        </table>
+        
