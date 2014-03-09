@@ -34,7 +34,7 @@
 
             <p>Soy Ingeniero de Sistemas e Informática de la Universidad Nacional de Colombia, actualmente curso la Maestría en Ingenieria de Sistemas en esta misma universidad.</p>
 
-            <p>Amante de las nuevas tecnologias, proactivo abierto a nuevas oportunidades, con capacidad de análisis y liderazgo, gran sentido de la responsabilidad y cumplimiento, proyectando mi labor hacia la búsqueda de la calidad e innovación tecnológica. </p>
+            <p>Amante de las nuevas tecnologias, proactivo abierto a nuevas oportunidades, con capacidad de análisis y liderazgo, gran sentido de la responsabilidad y cumplimiento, proyecto mi labor hacia la búsqueda de la calidad e innovación tecnológica. </p>
 
             <p>4 años de experiencia en el desarrollo Web me permiten ayudarle a entender sus necesidades de una manera más eficiente, logrando así los resultados esperados. </p>
             <p><em>Mi  filosofía...</em>   </p>
@@ -259,20 +259,20 @@
 <!-- contact section -->
 <section id="contact" class="contact" style="position: static;">
     <div class="container"> 
-        <h2 class="heading">Contacto <small>Por favor siéntase libre de enviarme cualquier duda o comentario sin ningún compromiso, responderé a la menor brevedad posible.</small></h2> 
+        <h2 class="heading">Contacto <small>Por favor siéntase libre de enviarme cualquier duda o comentario sin ningún compromiso, responderé a la mayor brevedad posible.</small></h2> 
         <div class="row">
 
             <!-- contact detail and social media -->
             <div class="col-md-4 col-sm-4 contact-inner">
 
-
+  <address class="contact-wrap">
+                    Marinilla, Colombia<br>
+                </address>
                 <div class="contact-wrap">
                     <span>Email: <a href="mailto:#">luismec90@gmail.com</a></span>
                     <span>Celular: (+57) 3113727751</span>
                 </div>
-                <address class="contact-wrap">
-                    Medellín, Colombia<br>
-                </address>
+              
                 <ul class="list-unstyled list-inline social">
                     <li><a href="https://www.facebook.com/luismec90" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="http://co.linkedin.com/pub/luis-fernando-montoya-gomez/72/228/39" target="_blank"><i class="fa fa-linkedin"></i></a></li>
