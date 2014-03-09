@@ -1,34 +1,3 @@
-/*	------------------------------------ 	
-        Civi Template Style
-
-        Version		: 2.0
-        Author		: Hendri Juhanda
-        Author URL	: http://juhanda.net
-        
-        Copyright © 2014
-        
-        ------------------------------------
-        
-        Table of Content
-        
-        Use ctrl-f on the "[code]" to easily locate certain section
-        
-        1. GLOBAL STYLE						[GBS]
-        2. SHARED STYLE						[SHS]					
-        3. HEADER STYLE						[HRS]
-        4. HERO SECTION						[HOS]
-        5. PROFILE SECTION					[PRS]
-        6. QUALIFICATION SECTION			[QFS]
-        7. SKILL SECTION					[SKS]
-        8. EXPERIENCE SECTION				[EXS]
-        9. EXTRA STYLE						[ERS]
-        10. CONTACT SECTION					[CTS]
-        11. FOOTER STYLE					[FOS]
-        12. MEDIA QUERIES					[MDQ]
-        
-        ------------------------------------  */
-
-/* [GBS] GLOBAL STYLE */
 body, html {
     height: 100%;
 }
@@ -1437,4 +1406,10 @@ blockquote:before {
 }
 #texto-logo:hover {
     text-decoration: none;
+}
+#container-logo-un{
+    overflow: hidden;
+}
+#container-me{
+    padding: 0;
 }

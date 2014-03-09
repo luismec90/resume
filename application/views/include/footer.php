@@ -6,7 +6,7 @@
 <script src="<?= base_url() ?>assets/js/jquery.scrollTo-1.4.3.1-min.js"></script><!-- scrollto -->
 <script src="<?= base_url() ?>assets/js/jquery.localscroll-1.2.7-min.js"></script><!-- localscroll -->
 <script src="<?= base_url() ?>assets/js/parsley.min.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiUHrtP7COzKY2azegkJZzps3J7pQ4Qs4&sensor=false"></script> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDODdfK43xeowFitI6N8ETnLnUYQIc0d_w&amp;sensor=false"></script> 
 <script src="<?= base_url() ?>assets/js/custom.js"></script><!-- custom -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
