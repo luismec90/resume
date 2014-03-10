@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
+        <title>Luis Fernando Montoya Web Developer, PHP Programmer, Frelancer, Colombia </title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Ingeniero de Sistemas e Informática de la Universidad Nacional de Colombia, freelancer, especialista en desarrollo y diseño Web con 4 años de experiencia">
-        <meta name="author" content="Luis Fernando Montoya, luismec90@gmail.com">
-
-        <title>Luis Fernando Montoya</title>
-
+        <meta name="author" content="by Luis Fernando Montoya, luismec90@gmail.com">
         <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia" rel="stylesheet" type="text/css"><!-- google fonts -->
         <link rel="stylesheet" href="<?= base_url() ?>assets/libs/bootstrap-3.1.1/css/bootstrap.min.css" >
         <link rel="stylesheet" href="<?= base_url() ?>assets/libs/font-awesome-4.0.3/css/font-awesome.min.css">
         <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet"><!-- theme style -->
-
         <link rel="shortcut icon" href="<?= base_url() ?>assets/img/favicon.png">
-
         <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
-
     <body data-spy="scroll" data-target="#main-nav" style="">
-          <a href="https://plus.google.com/108761034196827992342?rel=author">Google</a>
+       
         <header class="main-header">
             <div class="navbar navbar-fixed-top">
                 <nav class="container">

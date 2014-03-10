@@ -238,6 +238,7 @@
 
                 <ul class="list-unstyled list-inline social">
                     <li><a href="https://www.facebook.com/luismec90" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                           <li><a href="https://plus.google.com/108761034196827992342?rel=author" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="http://co.linkedin.com/pub/luis-fernando-montoya-gomez/72/228/39" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/luismec90" target="_blank"><i class="fa fa-github"></i></a></li>
 
@@ -286,14 +287,13 @@
 
 
 <footer class="main-footer">
-    <div class="container">			
+    <div class="container">
         <ul class="list-inline fa-ul archive">
             <!--<li><i class="fa-li fa fa-save"></i><a href="#">Descargar CV</a></li>-->
             <!--<li><i class="fa-li fa fa-print"></i><a href="#">Imprimir CV</a></li>-->
         </ul>
-
         <span class="copyright">Todos los derechos reservados © 2014.</span>
-        <a href="https://plus.google.com/108761034196827992342?rel=author">Google</a>
+       
     </div>
 </footer>
 

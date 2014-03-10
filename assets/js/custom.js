@@ -1,15 +1,3 @@
-/*	------------------------------------ 	
- Civi Template Script
- 
- Version		: 2.0
- Author		: Hendri Juhanda
- Author URL	: http://juhanda.net
- 
- Copyright © 2014
- 
- ------------------------------------  */
-
-/* CENTER HERO CONTENT VERTICALY */
 function heroContent() {
     var winHeight = $(window).innerHeight();
 

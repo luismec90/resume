@@ -233,11 +233,14 @@ li.dummy.active { /* scrollspy fix */
 
 /* [HOS] HERO SECTION */
 .hero {
+      
     padding: 0;
     overflow: hidden;
     background: url("../img/header-bg.jpg") top center;
+     background-attachment: fixed;
     height: 100%;
     background-size: cover;
+ 
 }
 
 .hero > .container {
@@ -1093,6 +1096,7 @@ li.dummy.active { /* scrollspy fix */
     .hero {
         height: auto;
         padding: 0;
+         background-attachment:local;
     }
 
     .hero-content {
@@ -1234,6 +1238,7 @@ li.dummy.active { /* scrollspy fix */
 
     .hero {
         height: auto;
+         background-attachment: local;
     }
 
     .hero-content {
@@ -1412,4 +1417,7 @@ blockquote:before {
 }
 #container-me{
     padding: 0;
+}
+#link-google-google{
+    
 }
