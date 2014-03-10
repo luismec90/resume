@@ -237,7 +237,6 @@ li.dummy.active { /* scrollspy fix */
     padding: 0;
     overflow: hidden;
     background: url("../img/header-bg.jpg") top center;
-     background-attachment: fixed;
     height: 100%;
     background-size: cover;
  
@@ -1096,7 +1095,6 @@ li.dummy.active { /* scrollspy fix */
     .hero {
         height: auto;
         padding: 0;
-         background-attachment:local;
     }
 
     .hero-content {
@@ -1238,7 +1236,6 @@ li.dummy.active { /* scrollspy fix */
 
     .hero {
         height: auto;
-         background-attachment: local;
     }
 
     .hero-content {
