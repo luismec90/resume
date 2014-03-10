@@ -25,7 +25,7 @@
 
             <p>4 años de experiencia en el desarrollo Web me permiten ayudarle a entender sus necesidades de una manera más eficiente, logrando así los resultados esperados. </p>
             <p><em>Mi  filosofía...</em>   </p>
-           
+
             <blockquote class="big bg-color green"><p>Haz de tu pasión tu profesión y nunca tendrás que trabajar.</p> 
             </blockquote>
         </div>
@@ -154,9 +154,22 @@
 
             <li class="present">
                 <div class="tl-header">
+                    <h3 class="tl-role">Diseño & Desarrollo</h3>
+                    <h4 class="tl-company"><a href="http://www.optilodging.com/motor/250" target="_blank">http://www.optilodging.com/motor/250</a></h4>
+                 <span class="tl-time">Nov 2013 - Feb 2014</span>
+                </div>
+
+                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="">
+
+                <p class="tl-content">Plataforma Web la cual permite reservar habitaciones en los hoteles afiliados al sistema. También permite el pago de la misma reserva ya sea con tarjeta débito o crédito.</p>
+
+            </li>
+
+            <li class="present right">
+                <div class="tl-header">
                     <h3 class="tl-role">Desarrollo</h3>
                     <h4 class="tl-company"><a href="http://www.tropicointernacional.com/" target="_blank">http://www.tropicointernacional.com/</a></h4>
-                    <span class="tl-time">Nov 2013 - Feb 2014</span>
+                       <span class="tl-time">Ago 2013 - Dic 2013</span>
                 </div>
 
                 <img class="tl-img" src="<?= base_url() ?>assets/img/tropico.png" alt="">
@@ -164,9 +177,6 @@
                 <p class="tl-content">
                     Plataforma para la comercialización internacional de productos agroindustriales. Centraliza información técnica para la exportación de alimentos.
                 </p>
-            </li>
-
-            <li class="present right">
                 <div class="tl-header">
                     <h3 class="tl-role">Diseño & Desarrollo</h3>
                     <h4 class="tl-company"><a href="http://www.optilodging.com/motor/250" target="_blank">http://www.optilodging.com/motor/250</a></h4>
@@ -238,7 +248,7 @@
 
                 <ul class="list-unstyled list-inline social">
                     <li><a href="https://www.facebook.com/luismec90" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                           <li><a href="https://plus.google.com/108761034196827992342?rel=author" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://plus.google.com/108761034196827992342?rel=author" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="http://co.linkedin.com/pub/luis-fernando-montoya-gomez/72/228/39" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/luismec90" target="_blank"><i class="fa fa-github"></i></a></li>
 
@@ -293,7 +303,7 @@
             <!--<li><i class="fa-li fa fa-print"></i><a href="#">Imprimir CV</a></li>-->
         </ul>
         <span class="copyright">Todos los derechos reservados © 2014.</span>
-       
+
     </div>
 </footer>
 
