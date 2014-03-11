@@ -30,7 +30,7 @@
             </blockquote>
         </div>
         <div  id="container-me" class="col-md-4 text-center">	
-            <img class="profile-figure" title="Luis Fernando Montoya" alt="Luis Fernando Montoya" width="290" height="290" src="<?= base_url() ?>assets/img/me.jpg">
+            <img class="profile-figure oculta" title="Luis Fernando Montoya" alt="Luis Fernando Montoya" width="290" height="290" src="<?= base_url() ?>assets/img/me.jpg">
         </div>
 
     </div>
@@ -47,13 +47,13 @@
                     <ul class="list-unstyled">
                         <li>
                             <h3 class="qualification-education-title">Estudiante de Maestría en Ingeniería de Sistemas</h3>
-                            <p>Universidad Nacional de Colombia 2014</p>
+                            <p>Universidad Nacional de Colombia</p>
                             <p>2014 - En curso</p>
                         </li>
                         <li>
                             <br><br>
                             <h3 class="qualification-education-title">Ingeniero de Sistemas e Informática</h3>
-                            <p>Universidad Nacional de Colombia 2014</p>
+                            <p>Universidad Nacional de Colombia</p>
                             <p>2008 - 2013</p>
                         </li>
                     </ul>

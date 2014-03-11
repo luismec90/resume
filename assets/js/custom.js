@@ -45,29 +45,24 @@ function heroContent() {
 }
 ;
 
-    /* CLOSE NAVBAR TOGGLE WHEN NAVBAR LINK CLICKED */
-    function navbarToggle() {
-        if ($(window).width() <= 767) {
-            $('.nav-style > li > a').on('click', function() {
-                $('.navbar-toggle').click();
-            });
-        }
+/* CLOSE NAVBAR TOGGLE WHEN NAVBAR LINK CLICKED */
+function navbarToggle() {
+    if ($(window).width() <= 767) {
+        $('.nav-style > li > a').on('click', function() {
+            $('.navbar-toggle').click();
+        });
     }
-    ;
-
-/* REFRESH SCROLLSPY */
-function scrollSpyRefresh() {
-   
 }
 ;
+
+
 
 $(document).ready(function() {
 
     // launch the custom functions
     heroContent();
     navbarToggle();
-
-
+ 
 
     /* INIT PAGE SCROLLING USING JQUERY SCROLLTO-LOCALSCROLL PLUGIN */
     $('html').localScroll();
@@ -177,7 +172,7 @@ $(document).ready(function() {
             $('#contact-sending').fadeIn(250);
 
             $.ajax({
-                type:"POST",
+                type: "POST",
                 url: "mail",
                 data: contactForm.serialize(),
                 success: function(response) {
@@ -204,31 +199,19 @@ $(document).ready(function() {
         return false
     });
 
-    /* FIRE SCROLLSPY REFRESH RIGHT AFTER USER STOPS SCROLLING */
-    var timer;
-
-    var refresh = function() {
-        scrollSpyRefresh();
-    };
-
-    $(window).bind('scroll', function() {
-        clearTimeout(timer);
-        timer = setTimeout(refresh, 250);
-    });
-
 });
 
 // do the following function on window load
 $(window).bind('load', function() {
     $('#contact-form')[0].reset(); // reset contact form
-    scrollSpyRefresh();
+
 });
 
 // do the following function on window resize
 $(window).on('resize', function() {
     heroContent();
     navbarToggle();
-    scrollSpyRefresh();
+
 });
 function initialize() {
     var myLatlng = new google.maps.LatLng(6.172771, -75.333511);

@@ -233,13 +233,13 @@ li.dummy.active { /* scrollspy fix */
 
 /* [HOS] HERO SECTION */
 .hero {
-      
+
     padding: 0;
     overflow: hidden;
     background: url("../img/header-bg.jpg") top center;
     height: 100%;
     background-size: cover;
- 
+
 }
 
 .hero > .container {
@@ -277,7 +277,7 @@ li.dummy.active { /* scrollspy fix */
     font-size: 18px;
     color: #fff;
     text-rendering: optimizeLegibility;
-    
+
 }
 
 .hero-figure {
@@ -291,6 +291,7 @@ li.dummy.active { /* scrollspy fix */
 /* [PRS] PROFILE SECTION */
 .profile {
     height: auto;
+    overflow: hidden;
 }
 
 .profile > .container {
@@ -1370,6 +1371,9 @@ li.dummy.active { /* scrollspy fix */
         margin-left: 5%;
         left: auto;
     }
+    #container-logo-un img{
+        width: 220px;
+    }
 }
 #map-canvas {
     height: 400px;
@@ -1416,5 +1420,5 @@ blockquote:before {
     padding: 0;
 }
 #link-google-google{
-    
+
 }
