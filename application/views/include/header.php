@@ -9,6 +9,7 @@
         <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia" rel="stylesheet" type="text/css"><!-- google fonts -->
         <link rel="stylesheet" href="<?= base_url() ?>assets/libs/bootstrap-3.1.1/css/bootstrap.min.css" >
         <link rel="stylesheet" href="<?= base_url() ?>assets/libs/font-awesome-4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>assets/libs/easy-pie-chart/jquery.easy-pie-chart.css">
         <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet"><!-- theme style -->
         <link rel="shortcut icon" href="<?= base_url() ?>assets/img/favicon.png">
         <!--[if lt IE 9]>

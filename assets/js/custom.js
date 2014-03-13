@@ -56,13 +56,64 @@ function navbarToggle() {
 ;
 
 
+/*============================================
+ Skills Charts
+ ==============================================*/
+var firstLoad = true;
+$('.skills').waypoint(function() {
+    if (firstLoad) {
+        $('.countTo').each(count);
+        firstLoad = false;
+    }
+    function count(options) {
+        var $this = $(this);
+        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+        $this.countTo(options);
+    }
+
+    $('.chart').each(function() {
+        $(this).easyPieChart({
+            size: 140,
+            animate: 2000,
+            lineCap: 'round',
+            scaleColor: false,
+            barColor: '#fff',
+            trackColor: 'transparent',
+            lineWidth: 7
+        });
+    });
+
+}, {offset: '80%'});
+/*
+ $('.skills').waypoint(function() {
+ console.log("asd");
+ 
+ $('.chart').each(function() {
+ $(this).easyPieChart({
+ size: 140,
+ animate: 2000,
+ lineCap: 'round',
+ scaleColor: false,
+ barColor: '#fff',
+ trackColor: 'transparent',
+ lineWidth: 7
+ });
+ });
+ 
+ }, {offset: '80%'});
+ */
+/*============================================
+ Load more Projects
+ ==============================================*/
+
+
 
 $(document).ready(function() {
 
     // launch the custom functions
     heroContent();
     navbarToggle();
- 
+
 
     /* INIT PAGE SCROLLING USING JQUERY SCROLLTO-LOCALSCROLL PLUGIN */
     $('html').localScroll();

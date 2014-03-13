@@ -70,11 +70,14 @@
     <div class="container">
         <h2 class="heading">Habilidades</h2>
         <br>
-        <div class="row">
+        <div class="row skills">
             <div class="col-md-3 col-sm-6">
                 <div class="skill-wrap">
-                    <div style="display: inline; width: 200px; height: 200px;"><input type="text" value="85" class="dial" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px; background-image: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 40px; line-height: normal; font-family: Arial; text-align: center; color: rgb(170, 170, 170); padding: 0px; -Webkit-appearance: none; background-position: initial initial; background-repeat: initial initial;"></div>
-
+                    <div style="display: inline; width: 200px; height: 200px;">
+                        <div class="chart-wrapper text-center">
+                            <span class="chart easyPieChart" data-percent="85" style="width: 140px; height: 140px; line-height: 140px;"><span class="percent countTo" data-to="85" data-speed="2000">85%</span></span>
+                        </div>
+                    </div>
                     <h3 class="skill-title">Bases de datos</h3>
 
                     <p class="skill-desc">Amplia experiencia en el modelado e implementación de grandes bases de datos.</p>
@@ -89,8 +92,11 @@
 
             <div class="col-md-3 col-sm-6">
                 <div class="skill-wrap">
-                    <div style="display: inline; width: 200px; height: 200px;"><input type="text" value="90" class="dial" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px; background-image: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 40px; line-height: normal; font-family: Arial; text-align: center; color: rgb(170, 170, 170); padding: 0px; -Webkit-appearance: none; background-position: initial initial; background-repeat: initial initial;"></div>
-
+                    <div style="display: inline; width: 200px; height: 200px;">
+                        <div class="chart-wrapper text-center">
+                            <span class="chart easyPieChart" data-percent="90" style="width: 140px; height: 140px; line-height: 140px;"><span class="percent countTo" data-to="90" data-speed="2000">90%</span></span>
+                        </div>
+                    </div>
                     <h3 class="skill-title">Desarollo Web</h3>
 
                     <p class="skill-desc">Gran experiencia en lenguajes y tecnologías back-end. </p>
@@ -106,7 +112,11 @@
 
             <div class="col-md-3 col-sm-6">
                 <div class="skill-wrap">
-                    <div style="display: inline; width: 200px; height: 200px;"><input type="text" value="90" class="dial" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px; background-image: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 40px; line-height: normal; font-family: Arial; text-align: center; color: rgb(170, 170, 170); padding: 0px; -Webkit-appearance: none; background-position: initial initial; background-repeat: initial initial;"></div>
+                    <div style="display: inline; width: 200px; height: 200px;">
+                        <div class="chart-wrapper text-center">
+                            <span class="chart easyPieChart" data-percent="90" style="width: 140px; height: 140px; line-height: 140px;"><span class="percent countTo" data-to="90" data-speed="2000">90%</span></span>
+                        </div>
+                    </div>
 
                     <h3 class="skill-title">Diseño Web</h3>
 
@@ -123,8 +133,11 @@
 
             <div class="col-md-3 col-sm-6">
                 <div class="skill-wrap">
-                    <div style="display: inline; width: 200px; height: 200px;"><input type="text" value="70" class="dial" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px; background-image: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 40px; line-height: normal; font-family: Arial; text-align: center; color: rgb(170, 170, 170); padding: 0px; -Webkit-appearance: none; background-position: initial initial; background-repeat: initial initial;"></div>
-
+                      <div style="display: inline; width: 200px; height: 200px;">
+                        <div class="chart-wrapper text-center">
+                            <span class="chart easyPieChart" data-percent="85" style="width: 140px; height: 140px; line-height: 140px;"><span class="percent countTo" data-to="70" data-speed="2000">70%</span></span>
+                        </div>
+                    </div>
                     <h3 class="skill-title">Otros</h3>
 
                     <p class="skill-desc">Habilidades que me permiten ofrecer un servicio integral. </p>
@@ -156,7 +169,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">Diseño & Desarrollo</h3>
                     <h4 class="tl-company"><a href="http://www.optilodging.com/motor/250" target="_blank">http://www.optilodging.com/motor/250</a></h4>
-                 <span class="tl-time">Nov 2013 - Feb 2014</span>
+                    <span class="tl-time">Nov 2013 - Feb 2014</span>
                 </div>
 
                 <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="">
@@ -169,7 +182,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">Desarrollo</h3>
                     <h4 class="tl-company"><a href="http://www.tropicointernacional.com/" target="_blank">http://www.tropicointernacional.com/</a></h4>
-                       <span class="tl-time">Ago 2013 - Dic 2013</span>
+                    <span class="tl-time">Ago 2013 - Dic 2013</span>
                 </div>
 
                 <img class="tl-img" src="<?= base_url() ?>assets/img/tropico.png" alt="">
