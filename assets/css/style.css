@@ -1422,3 +1422,42 @@ blockquote:before {
 #link-google-google{
 
 }
+.chart-wrapper{
+    background: #5cc9df;
+}
+.chart-wrapper {
+    background: #5CC9DF;
+    display: block;
+    width: 180px;
+    height: 180px;
+    padding-top: 20px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+.chart {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    left:10px;
+    bottom: 10px;
+}
+.percent {
+    display: inline-block;
+    line-height: 140px;
+    font-size: 38px;
+    font-weight: 300;
+    color: #fff;
+    z-index: 2;
+}
+.chart canvas {
+position: absolute;
+top: 0;
+left: 0;
+}
+.percent:after {
+content: '%';
+margin-left: 0.1em;
+font-size: 24px;
+}
