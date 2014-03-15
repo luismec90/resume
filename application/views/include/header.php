@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Luis Fernando Montoya Web Developer, PHP Programmer, Frelancer, Colombia </title>
+        <title>Luis Fernando Montoya || Programador PHP Colombia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Ingeniero de Sistemas e Informática de la Universidad Nacional de Colombia, freelancer, especialista en desarrollo y diseño Web con 4 años de experiencia">
+        <meta name="description" content="Programador PHP en Colombia con 4 años de experiencia apasionado del diseño web y las buenas prácticas de programación.">
+       <meta name="keywords" content="Programador PHP Colombia, Diseñador Web">
         <meta name="author" content="by Luis Fernando Montoya, luismec90@gmail.com">
         <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia" rel="stylesheet" type="text/css"><!-- google fonts -->
         <link rel="stylesheet" href="<?= base_url() ?>assets/libs/bootstrap-3.1.1/css/bootstrap.min.css" >
