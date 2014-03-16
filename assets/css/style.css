@@ -1388,7 +1388,11 @@ li.dummy.active { /* scrollspy fix */
     background: #4fa950;
     color: #fff;
 }
-blockquote:before {
+#cita{
+    height:80px;
+    font-size: 17.5px;
+}
+#cita:before {
     content: '“';
     top: 7px;
     left: 20px;

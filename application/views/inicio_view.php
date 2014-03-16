@@ -26,8 +26,8 @@
             <p>4 años de experiencia en el desarrollo Web me permiten ayudarle a entender sus necesidades de una manera más eficiente, logrando así los resultados esperados. </p>
             <p><em>Mi  filosofía...</em>   </p>
 
-            <blockquote class="big bg-color green"><p>Haz de tu pasión tu profesión y nunca tendrás que trabajar.</p> 
-            </blockquote>
+            <div id="cita" class="big bg-color green"><p>Haz de tu pasión tu profesión y nunca tendrás que trabajar.</p> 
+            </div>
         </div>
         <div  id="container-me" class="col-md-4 text-center">	
             <img class="profile-figure oculta" title="Luis Fernando Montoya" alt="Luis Fernando Montoya" width="290" height="290" src="<?= base_url() ?>assets/img/me.jpg">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div id="container-logo-un" class="col-md-7 text-center">	
-                <img class="" width="380" src="<?= base_url() ?>assets/img/logo-un.png" alt="">
+                <img class="" width="380" src="<?= base_url() ?>assets/img/logo-un.png" alt="Universidad Nacional de Colombia">
             </div>
 
         </div>
@@ -172,7 +172,7 @@
                     <span class="tl-time">Nov 2013 - Feb 2014</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="Motor de reservas en PHP">
 
                 <p class="tl-content">Plataforma Web la cual permite reservar habitaciones en los hoteles afiliados al sistema. También permite el pago de la misma reserva ya sea con tarjeta débito o crédito.</p>
 
@@ -185,7 +185,7 @@
                     <span class="tl-time">Ago 2013 - Dic 2013</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/tropico.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/tropico.png" alt="Desarrollo de aplicación Web para el comercio">
 
                 <p class="tl-content">
                     Plataforma para la comercialización internacional de productos agroindustriales. Centraliza información técnica para la exportación de alimentos.
@@ -196,7 +196,7 @@
                     <span class="tl-time">Ago 2013 - Dic 2013</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="programador php">
 
                 <p class="tl-content">Plataforma Web la cual permite reservar habitaciones en los hoteles afiliados al sistema. También permite el pago de la misma reserva ya sea con tarjeta débito o crédito.</p>
             </li>
@@ -207,7 +207,7 @@
                     <span class="tl-time">Ene 2013 - Ago 2013</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/reservas.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/reservas.png" alt="PMS freelance">
 
                 <p class="tl-content">Plataforma Web el cual permite a los hoteles sistematizar todo su funcionamiento, esto incluye administración de la ocupación, control de inventarios, generación de facturas, sistema contable, entre otros.
                 </p>
@@ -225,7 +225,7 @@
                     <span class="tl-time">May 2012   - Nov 2012</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/opti.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/opti.png" alt="Desarrollo web">
 
                 <p class="tl-content">Diseño de la página corporativa de Optilodging.com, la cual permite centralizar toda la información.</p>
             </li>
@@ -237,7 +237,7 @@
                     <span class="tl-time">Jun 2010 - Ene 2012</span>
                 </div>
 
-                <img class="tl-img" src="<?= base_url() ?>assets/img/roap.png" alt="">
+                <img class="tl-img" src="<?= base_url() ?>assets/img/roap.png" alt="Repostorio programado en PHP">
 
                 <p class="tl-content">Repositorio de objetos de aprendizaje basado en el estándar <a href="http://ltsc.ieee.org/wg12/files/LOM_1484_12_1_v1_Final_Draft.pdf" target="_blank">LOM</a> de la IEEE, el cual permite compartir recursos educativos entre instituciones de educación superior.</p>
             </li>
