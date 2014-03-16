@@ -265,7 +265,7 @@ $(window).on('resize', function() {
 
 });
 function initialize() {
-    var myLatlng = new google.maps.LatLng(6.172771, -75.333511);
+    var myLatlng = new google.maps.LatLng(6.274987, -75.592493);
     var mapOptions = {
         zoom: 16,
         center: myLatlng,
