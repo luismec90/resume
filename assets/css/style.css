@@ -1051,9 +1051,12 @@ li.dummy.active { /* scrollspy fix */
     line-height: 50px;
     background: #fafafa;
     border-top: 2px solid #eee;
+    position: fixed;
+    bottom: 0;
     color: #aaa;
     font-family: "Droid Sans", sans-serif;
 }
+
 
 .archive {
     float: right;
@@ -1366,6 +1369,11 @@ li.dummy.active { /* scrollspy fix */
 }
 
 @media screen and (max-width: 500px) {
+    .main-footer {
+
+        position:relative;
+
+    }
     .contact-notif {
         width: 90%;
         margin-left: 5%;
@@ -1456,12 +1464,12 @@ li.dummy.active { /* scrollspy fix */
     z-index: 2;
 }
 .chart canvas {
-position: absolute;
-top: 0;
-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .percent:after {
-content: '%';
-margin-left: 0.1em;
-font-size: 24px;
+    content: '%';
+    margin-left: 0.1em;
+    font-size: 24px;
 }

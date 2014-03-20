@@ -40,26 +40,25 @@
 
         <div class="row">
             <h2 class="heading">Educación</h2>
-            <div class="col-md-4 ">
+            <div class="col-md-7 ">
                 <div class="qualification-education">
                     <br>
 
                     <ul class="list-unstyled">
                         <li>
                             <h3 class="qualification-education-title">Estudiante de Maestría en Ingeniería de Sistemas</h3>
-                            <p>Universidad Nacional de Colombia</p>
-                            <p>2014 - En curso</p>
+                            <p>Universidad Nacional de Colombia - Sede Medellín</p>
+     
                         </li>
                         <li>
                             <br><br>
                             <h3 class="qualification-education-title">Ingeniero de Sistemas e Informática</h3>
-                            <p>Universidad Nacional de Colombia</p>
-                            <p>2008 - 2013</p>
+                            <p>Universidad Nacional de Colombia- Sede Medellín</p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div id="container-logo-un" class="col-md-7 text-center">	
+            <div id="container-logo-un" class="col-md-5 text-center">	
                 <img class="" width="380" src="<?= base_url() ?>assets/img/logo-un.png" alt="Universidad Nacional de Colombia">
             </div>
 
@@ -190,16 +189,7 @@
                 <p class="tl-content">
                     Plataforma para la comercialización internacional de productos agroindustriales. Centraliza información técnica para la exportación de alimentos.
                 </p>
-                <div class="tl-header">
-                    <h3 class="tl-role">Diseño & Desarrollo</h3>
-                    <h4 class="tl-company"><a href="http://www.optilodging.com/motor/250" target="_blank">http://www.optilodging.com/motor/250</a></h4>
-                    <span class="tl-time">Ago 2013 - Dic 2013</span>
-                </div>
-
-                <img class="tl-img" src="<?= base_url() ?>assets/img/motor.png" alt="programador php">
-
-                <p class="tl-content">Plataforma Web la cual permite reservar habitaciones en los hoteles afiliados al sistema. También permite el pago de la misma reserva ya sea con tarjeta débito o crédito.</p>
-            </li>
+                           </li>
             <li class="present">
                 <div class="tl-header">
                     <h3 class="tl-role">Diseño & Desarrollo</h3>
@@ -252,10 +242,10 @@
             <div class="col-md-4 col-sm-4 contact-inner">
 
                 <address class="contact-wrap">
-                    Marinilla, Colombia<br>
+                    Medellín, Colombia<br>
                 </address>
                 <div class="contact-wrap">
-                    <span>Email: <a href="mailto:#">luismec90@gmail.com</a></span>
+                    <span>Email: <a href="mailto:luismec90@gmail.com">luismec90@gmail.com</a></span>
                     <span>Celular: (+57) 3113727751</span>
                 </div>
 
@@ -290,7 +280,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default pull-right">Enviar</button>
+                    <button type="submit" class="btn btn-success pull-right">Enviar</button>
                     <a href="#" class="btn btn-danger pull-right contact-reset">Limpiar</a>
                 </div>
             </form>
@@ -312,7 +302,7 @@
 <footer class="main-footer">
     <div class="container">
         <ul class="list-inline fa-ul archive">
-            <!--<li><i class="fa-li fa fa-save"></i><a href="#">Descargar CV</a></li>-->
+            <li><i class="fa-li fa fa-save"></i><a href="HV_Luis_Fernando_Montoya.pdf" target="_blank">Ver hoja de vida</a></li>
             <!--<li><i class="fa-li fa fa-print"></i><a href="#">Imprimir CV</a></li>-->
         </ul>
         <span class="copyright">Todos los derechos reservados © 2014.</span>
