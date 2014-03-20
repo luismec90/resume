@@ -302,7 +302,7 @@
 <footer class="main-footer">
     <div class="container">
         <ul class="list-inline fa-ul archive">
-            <!--<li><i class="fa-li fa fa-save"></i><a href="#">Descargar CV</a></li>-->
+            <li><i class="fa-li fa fa-save"></i><a href="HV_Luis_Fernando_Montoya.pdf" target="_blank">Descargar hoja de vida</a></li>
             <!--<li><i class="fa-li fa fa-print"></i><a href="#">Imprimir CV</a></li>-->
         </ul>
         <span class="copyright">Todos los derechos reservados © 2014.</span>
