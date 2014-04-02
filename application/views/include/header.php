@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Luis Fernando Montoya || Programador PHP Colombia</title>
+        <title>Programador PHP Colombia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Programador PHP en Colombia con 4 años de experiencia apasionado del diseño web y las buenas prácticas de programación.">
